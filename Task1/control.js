@@ -22,6 +22,8 @@ for (var i = 0, len = btnSlides.length; i < len; i++) {
 }
 // Add for Events
 
+setInterval(slideNext, 1500);
+
 function slideNext() {
   if (change < countSlides - 1) {
     change++;
